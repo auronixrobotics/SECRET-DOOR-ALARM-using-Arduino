@@ -10,9 +10,6 @@ When the door is closed, the magnet stays near the reed sensor. When someone ope
 • Jumper Wires
 • Breadboard
 
-💻 Arduino Code:
-[PASTE YOUR CODE LINK HERE]
-
 ⚡ How It Works:
 Magnet Near Reed Sensor → Door Closed → Alarm OFF
 Magnet Away → Door Opened → Alarm ON 🔔
