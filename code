@@ -1,0 +1,15 @@
+int reed = 2;
+int buzzer = 8;
+
+void setup() {
+  pinMode(reed, INPUT);
+  pinMode(buzzer, OUTPUT);
+}
+
+void loop() {
+  if (digitalRead(reed) == HIGH) {
+    digitalWrite(buzzer, HIGH);
+  } else {
+    digitalWrite(buzzer, LOW);
+  }
+}
